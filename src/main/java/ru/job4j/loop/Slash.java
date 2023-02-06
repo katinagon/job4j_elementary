@@ -6,7 +6,7 @@ public class Slash {
             for (int cell = 0; cell < size; cell++) {
                 if (row == cell) {
                     System.out.print("0");
-                } else if (row == size - 1 - cell || cell == size - 1 - row) {
+                } else if (row == size - 1 - cell) {
                     System.out.print("0");
                 } else {
                     System.out.print(" ");
